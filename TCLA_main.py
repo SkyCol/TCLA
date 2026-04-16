@@ -5,7 +5,7 @@ from huggingface_hub import hf_hub_download
 from open_clip import create_model_and_transforms, get_tokenizer
 from open_clip.factory import HF_HUB_PREFIX, _MODEL_CONFIGS
 from loader import FewShotImageFolder
-from TILA import *
+from TCLA import *
 
 device = "cuda"
 
